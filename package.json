@@ -1,0 +1,11 @@
+{
+  "name": "site.twi.agro",
+  "version": "1.0.0",
+  "description": "Website for T.W.I Agro - Rural Advisory, Precision Agriculture, and Drone Spraying",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

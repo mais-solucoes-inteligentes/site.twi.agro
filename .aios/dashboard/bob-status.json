@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-05-27T01:34:26.142Z",
+  "orchestration": {
+    "active": false,
+    "mode": "bob",
+    "epic_id": null,
+    "current_story": null
+  },
+  "pipeline": {
+    "stages": [
+      "validation",
+      "development",
+      "self_healing",
+      "quality_gate",
+      "push",
+      "checkpoint"
+    ],
+    "current_stage": "phase_0_bootstrap",
+    "story_progress": "0/0",
+    "completed_stages": []
+  },
+  "current_agent": {
+    "id": "@devops",
+    "name": "Gage",
+    "task": "environment-bootstrap",
+    "reason": "Greenfield: environment-bootstrap",
+    "started_at": "2026-05-27T01:34:22.224Z"
+  },
+  "active_terminals": [],
+  "surface_decisions": [],
+  "elapsed": {
+    "story_seconds": 0,
+    "session_seconds": 3
+  },
+  "errors": [],
+  "educational": {
+    "enabled": false,
+    "tradeoffs": [],
+    "reasoning": []
+  }
+}
