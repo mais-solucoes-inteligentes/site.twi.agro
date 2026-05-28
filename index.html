@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T.W.I Agro - Agricultura de Alta Performance</title>
+  
+  <!-- CSS Design System -->
+  <link rel="stylesheet" href="css/index.css">
+  
+  <!-- JavaScript Logic -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- CABEÇALHO FIXO -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">T.W.I <span>Agro</span></div>
+      
+      <!-- Navegação Desktop -->
+      <nav class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#roi">Eficiência</a>
+        <a href="#contato">Orçamento</a>
+      </nav>
+      
+      <a href="#contato" class="btn btn-secondary nav-cta">Fale Conosco</a>
+      
+      <!-- Botão Hamburger (Mobile) -->
+      <button class="hamburger-btn" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Mobile (Off-Canvas) -->
+  <div class="mobile-menu-overlay">
+    <nav class="mobile-nav">
+      <button class="close-btn" aria-label="Fechar Menu">&times;</button>
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#sobre" class="mobile-link">Quem Somos</a>
+      <a href="#servicos" class="mobile-link">Serviços</a>
+      <a href="#roi" class="mobile-link">Eficiência</a>
+      <a href="#contato" class="mobile-link">Orçamento</a>
+      <a href="#contato" class="btn btn-secondary mobile-cta">Fale Conosco</a>
+    </nav>
+  </div>
+
+  <!-- SEÇÕES PLACEHOLDER (Para teste do scroll suave) -->
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-content fade-in-up">
+        <h1>A força da sua terra potencializada por alta tecnologia.</h1>
+        <p>Soluções completas em crédito rural, agricultura de precisão e pulverização por drones de alta capacidade.</p>
+        <div class="hero-buttons">
+          <a href="#contato" class="btn btn-primary">Fazer Orçamento</a>
+          <a href="#sobre" class="btn btn-secondary">Conheça Nossos Valores</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="sobre-section">
+      <div class="sobre-container">
+        <!-- Coluna de Texto -->
+        <div class="sobre-texto fade-in-up">
+          <h2>Sobre a T.W.I Agro</h2>
+          <p>Nascemos para preencher uma lacuna vital no agronegócio: unir o financiamento da sua safra à tecnologia de precisão e aplicação sem danos mecânicos (amassamento zero).</p>
+          <ul class="valores-lista">
+            <li>
+              <strong>🛡️ Confiança</strong>
+              <p>Parceria transparente desde o crédito até a colheita.</p>
+            </li>
+            <li>
+              <strong>🚀 Inovação</strong>
+              <p>Drones de alta capacidade e mapeamento avançado de solo.</p>
+            </li>
+            <li>
+              <strong>🌱 Sustentabilidade</strong>
+              <p>Aplicação inteligente que preserva o solo e economiza água.</p>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Coluna de Imagem -->
+        <div class="sobre-imagem fade-in-up">
+          <div class="imagem-placeholder">
+            <!-- Placeholder para a foto institucional -->
+            <span>Imagem Institucional / Campo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SERVIÇOS E DIFERENCIAIS -->
+    <section id="servicos" class="servicos-section">
+      <div class="servicos-header fade-in-up">
+        <h2>Nossas Soluções</h2>
+        <p>Alta tecnologia e inteligência financeira para maximizar a sua colheita.</p>
+      </div>
+
+      <div class="servicos-grid">
+        <!-- Card 1: Assessoria Rural -->
+        <div class="servico-card fade-in-up">
+          <div class="card-icon">💼</div>
+          <h3>Assessoria Rural</h3>
+          <p>Suporte completo para alavancar seu negócio no campo.</p>
+          <ul class="servico-topicos">
+            <li>Crédito Rural e Financiamento</li>
+            <li>Planejamento de Safra (Barter)</li>
+            <li>Regularização Ambiental</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Agricultura de Precisão -->
+        <div class="servico-card fade-in-up" style="transition-delay: 0.1s;">
+          <div class="card-icon">🛰️</div>
+          <h3>Agricultura de Precisão</h3>
+          <p>Mapeamento inteligente para decisões cirúrgicas.</p>
+          <ul class="servico-topicos">
+            <li>Amostragem de Solo Georreferenciada</li>
+            <li>Aplicação em Taxa Variável</li>
+            <li>Mapeamento NDVI (Índice de Vegetação)</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Pulverização por Drone -->
+        <div class="servico-card fade-in-up" style="transition-delay: 0.2s;">
+          <div class="card-icon">🚁</div>
+          <h3>Pulverização por Drone</h3>
+          <p>Tecnologia de ponta para aplicações sem danos mecânicos.</p>
+          <ul class="servico-topicos">
+            <li>Aplicação Ultra-Localizada</li>
+            <li>Amassamento Zero de Lavouras</li>
+            <li>Acesso a Áreas Complexas ou Encharcadas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ROI E EFICIÊNCIA -->
+    <section id="roi" class="roi-section">
+      <div class="roi-header fade-in-up">
+        <h2>Números que Comprovam</h2>
+        <p>Dados objetivos que tornam a tecnologia da T.W.I Agro o melhor investimento para sua safra.</p>
+      </div>
+
+      <div class="roi-metrics-container">
+        <!-- Métrica 1 -->
+        <div class="metric-card fade-in-up">
+          <span class="metric-number text-gradient">+10%</span>
+          <h3>Produtividade Média</h3>
+          <p>Potencial ganho garantido devido ao amassamento zero nas faixas de pulverização.</p>
+        </div>
+
+        <!-- Métrica 2 -->
+        <div class="metric-card fade-in-up" style="transition-delay: 0.1s;">
+          <span class="metric-number text-gradient">90%</span>
+          <h3>Economia de Água</h3>
+          <p>Utilização inteligente de ultra-baixo volume, otimizando calda concentrada.</p>
+        </div>
+
+        <!-- Métrica 3 -->
+        <div class="metric-card fade-in-up" style="transition-delay: 0.2s;">
+          <span class="metric-number text-gradient">Cirúrgica</span>
+          <h3>Aplicação</h3>
+          <p>Redução substancial de defensivos aplicando apenas nas reboleiras mapeadas (NDVI).</p>
+        </div>
+      </div>
+
+      <!-- COMPLIANCE E SEGURANÇA -->
+      <div class="compliance-block fade-in-up" style="transition-delay: 0.3s;">
+        <h3>Segurança e Conformidade Regulamentar</h3>
+        <p>Operamos 100% dentro das normas e exigências nacionais para garantir a sua segurança jurídica e patrimonial.</p>
+        <div class="compliance-logos">
+          <div class="compliance-logo"><span>MAPA</span></div>
+          <div class="compliance-logo"><span>ANAC</span></div>
+          <div class="compliance-logo"><span>DECEA</span></div>
+          <div class="compliance-logo"><span>ANATEL</span></div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ORÇAMENTO E CONTATO -->
+    <section id="contato" class="contato-section">
+      <div class="contato-header fade-in-up">
+        <h2>Simulação de Orçamento</h2>
+        <p>Preencha os dados abaixo e receba uma proposta comercial personalizada sem compromisso.</p>
+      </div>
+
+      <div class="form-container fade-in-up" id="form-container">
+        <form id="orcamento-form" class="orcamento-form" novalidate>
+          
+          <div class="form-group">
+            <label for="nome">Nome Completo *</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: João da Silva">
+            <span class="error-message" id="error-nome">Campo obrigatório</span>
+          </div>
+
+          <div class="form-group">
+            <label for="whatsapp">WhatsApp *</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(XX) XXXXX-XXXX">
+            <span class="error-message" id="error-whatsapp">Insira um número válido</span>
+          </div>
+
+          <div class="form-group">
+            <label for="cidade">Cidade/Estado *</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Ex: Rio Verde - GO">
+            <span class="error-message" id="error-cidade">Campo obrigatório</span>
+          </div>
+
+          <div class="form-group">
+            <label for="hectares">Área em Hectares *</label>
+            <input type="number" id="hectares" name="hectares" min="1" placeholder="Ex: 500">
+            <span class="error-message" id="error-hectares">Informe a área</span>
+          </div>
+
+          <div class="form-group form-group-full">
+            <label for="cultura">Cultura Principal *</label>
+            <select id="cultura" name="cultura">
+              <option value="">Selecione uma cultura...</option>
+              <option value="Soja">Soja</option>
+              <option value="Milho">Milho</option>
+              <option value="Cana-de-Açucar">Cana-de-Açúcar</option>
+              <option value="Algodão">Algodão</option>
+              <option value="Outros">Outros</option>
+            </select>
+            <span class="error-message" id="error-cultura">Selecione uma opção</span>
+          </div>
+
+          <div class="form-group form-group-full">
+            <label for="mensagem">Observações (Opcional)</label>
+            <textarea id="mensagem" name="mensagem" rows="3" placeholder="Detalhes adicionais da propriedade..."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-submit">Receber Proposta Comercial</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Modal de Sucesso (Oculto por Padrão) -->
+      <div id="sucesso-mensagem" class="sucesso-mensagem hidden">
+        <div class="sucesso-icon">✅</div>
+        <h3>Proposta Recebida com Sucesso!</h3>
+        <p>Agradecemos seu interesse na T.W.I Agro. Um de nossos consultores entrará em contato em até 24 horas.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.711.92 2.8.92 3.18 0 5.768-2.586 5.769-5.766 0-3.181-2.588-5.762-5.76-5.762zm3.332 8.167c-.156.458-.871.862-1.226.914-.306.045-.851.092-2.316-.516-1.769-.734-2.898-2.535-2.985-2.651-.087-.116-.713-.949-.713-1.811 0-.862.451-1.285.61-1.458.158-.173.344-.216.458-.216.115 0 .23 0 .331.006.113.006.262-.043.408.31.149.359.511 1.25.556 1.341.045.092.075.199.017.315-.058.116-.087.188-.174.288-.087.101-.183.218-.261.296-.087.087-.18.181-.08.353.101.173.451.745.973 1.209.674.599 1.233.784 1.406.871.173.087.275.072.378-.043.101-.116.442-.516.562-.693.119-.176.239-.146.398-.087.158.058.998.471 1.169.557.171.087.284.13.326.202.042.072.042.418-.114.876z"/></svg>
+  </a>
+
+</body>
+</html>

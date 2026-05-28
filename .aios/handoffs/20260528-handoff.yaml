@@ -1,0 +1,22 @@
+# Handoff Context Document
+date: "2026-05-28"
+project: "T.W.I Agro"
+current_phase: "Execution - Epic 3"
+last_active_agent: "@po"
+
+completed_work:
+  - Epic 1: Completo (Foundation CSS e Header).
+  - Epic 2: Completo (Story 2.1 Hero/Sobre, Story 2.2 Serviços Glassmorphism).
+  - Componentes UI finalizados: Glassmorphism, IntersectionObserver para scroll suave (`.fade-in-up`), CSS Grid auto-fit para responsividade.
+
+current_status:
+  - Próximo passo é iniciar o Epic 3: Calculadora de ROI e Captação de Leads.
+  - A Story 3.1 deve ser rascunhada pela Scrum Master (`@sm`).
+
+key_files:
+  - `index.html` (Hero, Sobre e Serviços implementados)
+  - `css/index.css` (Design system e animações)
+  - `js/script.js` (Mobile menu e IntersectionObserver)
+
+next_action_required:
+  - Ativar `/sm` e rodar `*draft` para gerar `docs/stories/3.1.story.md`.

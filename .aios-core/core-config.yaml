@@ -1,4 +1,4 @@
-markdownExploder: true
+markdownExploder: false
 project:
   type: greenfield
   installedAt: '2026-05-27T00:58:00.140Z'
